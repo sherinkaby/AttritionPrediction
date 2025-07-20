@@ -1,29 +1,29 @@
-# 📊 Employee Attrition Prediction
+# Employee Attrition Prediction
 
-## 🔍 Overview
+## Overview
 Employee attrition is a critical issue in Human Resource Management. This project uses machine learning techniques to predict whether an employee is likely to leave a company based on various features such as job satisfaction, age, department, and more.
 
 This project aims to build an accurate predictive model using real-world employee data and provide actionable insights that can help organizations proactively manage retention.
 
-## 🧠 Objectives
+## Objectives
 - Analyze employee-related features and their impact on attrition.
 - Preprocess and clean the data to prepare it for modeling.
 - Train and evaluate classification models to predict attrition.
 - Identify the most influential features contributing to employee turnover.
 
-## 📁 Dataset
+## Dataset
 - **Source**: IBM HR Analytics Employee Attrition & Performance dataset.
 - **Size**: ~35 features for ~1,470 employees.
 - **Target Variable**: `Attrition` (Yes/No)
 
-## ⚙️ Technologies Used
+## Technologies Used
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - Matplotlib, Seaborn
 - Jupyter Notebook
 
-## 🔄 Workflow
+## Workflow
 
 ### 1. Data Preprocessing
 - Removed unnecessary columns (e.g., `EmployeeCount`, `Over18`).
@@ -59,12 +59,12 @@ This project aims to build an accurate predictive model using real-world employe
 - **Accuracy**: ~87%  
 - **ROC-AUC**: ~0.91
 
-## 🔍 Key Insights
+## Key Insights
 - Employees with low job satisfaction and high overtime are more likely to leave.
 - Monthly income, environment satisfaction, and years at the company are strong predictors.
 - HR teams can focus retention efforts on specific age groups and job roles.
 
-## 📌 Project Structure
+## Project Structure
 ```bash
 Employee-Attrition-Prediction/
 │
@@ -73,11 +73,11 @@ Employee-Attrition-Prediction/
 └── data/                                              # (if applicable)
 ```
 
-## ✅ Future Work
+## Future Work
 - Implement SMOTE for better class balance.
 - Try advanced models like XGBoost or LightGBM.
 - Integrate with a Flask API for live predictions.
 
-## 👩‍💼 Author
+## Author
 - Sherin K Aby  
 (Master’s in Management Information Systems, Drexel University)
